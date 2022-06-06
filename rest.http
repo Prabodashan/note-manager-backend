@@ -1,1 +1,10 @@
 POST http://localhost:3300/api/notes
+content-type: application/json
+
+{
+    "title": "Sample notes",
+    "details": "this is a sample details"
+}
+
+################################
+GET http://localhost:3300/api/notes
